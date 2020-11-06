@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 120vh;
+}
+
+header{
+    height: 5%;
+    background-color: rgb(35, 35, 47);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+#navagation{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.search{
+    padding-left: 15px;
+}
+
+#logo{
+    width: 8%;
+    margin-left: 15px;
+}
+
+.bell{
+    width: 30%;
+}
+
+.mini-profile{
+    width: 30%;
+    
+    
+}
+
+#buttons{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: center;
+}
+
+nav{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: center;
+}
+
+.nav-text{
+    color: white;
+    padding-left: 15px;
+    background-color: rgb(35, 35, 47);
+    display: flex;
+}
+.dropdown{
+    font-size: 2em;
+    
+    
+}
+
+#left-side{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+    align-content: flex-start;
+    width: 30%;
+    margin: 0;
+}
+
+#left-side img{
+    border-radius: 50%;
+    padding: 6%;
+    width: 100%;
+}
+
+#name{
+    padding: 6%;
+    font-size: 2rem;
+}
+#left-side button{
+    width: 100%;
+    height: 3em;
+    margin-left: 2%;
+}
+#joined{
+        padding: 6%;
+}
+.profile-nav{
+    margin-left: 20px;
+    font-size: 2em;
+    border: none;
+    border-bottom: gray;
+}
+#profile-navagation{
+    display: inline;
+    width: 70%;
+}
+
+#profile-navagation nav{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+    align-content: flex-start;
+    height: 5%;
+    border-bottom: gainsboro solid 2px;
+}
+
+#body-display{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+}
+
+#inner-body-display{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+}
+
+#grid-topper{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+    align-content: stretch;
+    width: 100%;
+}
+
+#grid-topper h2{
+    padding: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    width: 100%;
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    height: 5em;
+}
+
+
+
+
+
+
+
+
+.footer-text{
+    color: blue;
+}
+
+footer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+    align-content: stretch;
+    border-top: grey solid 1px;
+}
